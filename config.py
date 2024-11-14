@@ -24,17 +24,15 @@ class Config:
     # an hp_bar_background color (default 34, 51, 59), and a list
     # of hp_bar_fill colors (default (156, 198, 155), (189, 228, 168), (215, 242, 186))
     #
-    color_themes = {
-        "dark_modern": {
-            "hallway": pygame.Color(40, 44, 52),
-            "background": pygame.Color(24, 26, 30),
-            "square": [
-                pygame.Color(224, 26, 79),
-                pygame.Color(173, 247, 182),
-                pygame.Color(249, 194, 46),
-                pygame.Color(83, 179, 203)
-            ]
-        },
+color_themes = {
+    "dark_modern": {
+        "hallway": pygame.Color(40, 44, 52),
+        "background": pygame.Color(24, 26, 30),
+        "square": [
+            pygame.Color(255, 255, 255)  # Set square to a bright white color
+        ]
+    }
+},
 
         "dark": {
             "hallway": pygame.Color(214, 209, 205),
